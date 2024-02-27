@@ -1,0 +1,18 @@
+figure{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.26);
+    transition: 200ms;
+}
+figure img {
+    width: 100%;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+figure:hover{
+    transform: scale(1.02);
+}

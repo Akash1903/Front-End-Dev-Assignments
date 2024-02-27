@@ -1,0 +1,37 @@
+img{
+    width: 450px;
+    float: left;
+    /* float is added to wrap text around the image */
+    padding: 16px;
+}
+section{
+    width: 70vw;
+    border: 10px solid lightgray;
+    padding: 1rem;
+    margin:10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.06rem;
+}
+h2{
+    color: darkblue ;
+}
+/* Following code is copied from css tricks for hr property */
+/* hr property is horizontal ruler or line */
+hr{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
